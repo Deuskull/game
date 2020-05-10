@@ -29,8 +29,8 @@ const injectAnimation = (pos: AnimationPositions, pastaId: number) => {
     );
 };
 
-const pastaImg = 'https://w0.pngwave.com/png/28/465/poop-png-clip-art.png';
-const pastaCrushedImg = 'https://w7.pngwing.com/pngs/769/310/png-transparent-world-emoji-day-emoji-domain-smile-emoticon-emoji-face-smiley-sticker-thumbnail.png';
+const pastaImg = 'https://jasonbgraham.com/wp-content/uploads/2019/01/jasonbgraham-poop-icon.png';
+const pastaCrushedImg = 'https://images.emojiterra.com/google/android-10/512px/1f60c.png';
 
 type Props = {
     pastaId: number;
