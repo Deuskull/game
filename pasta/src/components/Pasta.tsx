@@ -29,8 +29,8 @@ const injectAnimation = (pos: AnimationPositions, pastaId: number) => {
     );
 };
 
-const pastaImg = 'http://2.bp.blogspot.com/-KdqQ59OZ6b4/U7DdEh5iiHI/AAAAAAAAKSM/fl3U7pxNAdo/s1600/classici-farfalle-formato.png';
-const pastaCrushedImg = 'http://4.bp.blogspot.com/-4Y-0SxTBlrI/T2KZrQwyleI/AAAAAAAAG1c/RTChXtRDXJE/s1600/IMG_2885.JPG';
+const pastaImg = 'https://w0.pngwave.com/png/28/465/poop-png-clip-art.png';
+const pastaCrushedImg = 'https://w7.pngwing.com/pngs/769/310/png-transparent-world-emoji-day-emoji-domain-smile-emoticon-emoji-face-smiley-sticker-thumbnail.png';
 
 type Props = {
     pastaId: number;
