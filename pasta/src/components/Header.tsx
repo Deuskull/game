@@ -18,8 +18,8 @@ export const Header = () => {
 
     return <header className={css.header}>
         <span className={css.logoWrapper}><img src={logo} className={css.headerLogo} alt="logo"/></span>
-        <div className={css.counter}>counter {currentScore}</div>
-        <div className={css.counter}>pastas: {pastasCount}</div>
+        <div className={css.counter}>Score: {currentScore}</div>
+        <div className={css.counter}>Poop: {pastasCount}</div>
 
         {domRoot && domRoot.requestFullscreen && <button onClick={goFullScreen}>🖥</button>}
         {isPlaying && <button onClick={() => dispatch(stopGame())}>pause</button>}
